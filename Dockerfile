@@ -1,4 +1,4 @@
-FROM octest:latest
+FROM svestol/octest:latest
 
 COPY . .
 
