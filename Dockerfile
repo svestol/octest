@@ -4,4 +4,6 @@ COPY . .
 
 RUN npm i
 
+USER node
+
 CMD [ "node", "." ]
